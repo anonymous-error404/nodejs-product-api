@@ -78,29 +78,6 @@ curl -X GET http://localhost:3000/api/products
 
 # Test with specific product
 curl -X GET http://localhost:3000/api/products/1
-Project Structure
-nodejs-product-api/
-├── src/
-│   ├── controllers/
-│   │   ├── productController.js
-│   │   └── authController.js
-│   ├── models/
-│   │   ├── Product.js
-│   │   └── User.js
-│   ├── routes/
-│   │   ├── products.js
-│   │   └── auth.js
-│   ├── middleware/
-│   │   ├── auth.js
-│   │   ├── validation.js
-│   │   └── errorHandler.js
-│   ├── config/
-│   │   └── database.js
-│   └── app.js
-├── tests/
-├── package.json
-├── .env.example
-└── README.md
 
 ##What I'd Improve with More Time
 
